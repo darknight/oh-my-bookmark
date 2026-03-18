@@ -1,0 +1,27 @@
+node_modules/
+.svelte-kit/
+.wrangler/
+.pnpm-store/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.vercel
+
+# Data files (contain personal bookmarks with internal URLs)
+*.csv
+*.html
+!src/**/*.html
+
+# Screenshots
+*.png
+
+# Local config (contain user-specific paths)
+.claude/settings.local.json
+.github/hooks/
+
+# Plans and specs (contain internal discussion)
+plans/
+spec.md

@@ -1,0 +1,15 @@
+name = "oh-my-bookmark"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+main = ".svelte-kit/cloudflare/_worker.js"
+workers_dev = false
+
+[assets]
+directory = ".svelte-kit/cloudflare"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "oh-my-bookmark-db"
+database_id = "2546205a-f506-4f89-a4d1-3401ae759517"
+migrations_dir = "migrations"
